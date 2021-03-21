@@ -35,7 +35,10 @@ import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.is;
-
+/**
+ * This is the Test for the entire project.
+ * @author The Clueless
+ */
 @LargeTest
 @RunWith(AndroidJUnit4.class)
 public class MainActivityTest {
@@ -43,6 +46,10 @@ public class MainActivityTest {
     @Rule
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 
+    /**
+     * This is the test scenario for all the activities.
+     * Such as checking whether it will match the display of activity and also whether the button is functional.
+     */
     @Test
     public void mainActivityTest() {
         // Added a sleep statement to match the app's execution delay.
@@ -394,8 +401,4 @@ public class MainActivityTest {
         };
     }
 
-    @Test
-    public void testNegative(){
-
-    }
 }

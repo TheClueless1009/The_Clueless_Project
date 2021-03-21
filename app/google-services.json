@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010320019592",
+    "project_id": "theclueless-e4926",
+    "storage_bucket": "theclueless-e4926.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010320019592:android:2b375ee4b4200ea279cf3d",
+        "android_client_info": {
+          "package_name": "sg.edu.singaporetech.sit.theclueless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010320019592-9gc2j9997eov878hoi83g1silbker948.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADVdVWJIzvREKH1h5Ld8VybD9r_srTBzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010320019592-9gc2j9997eov878hoi83g1silbker948.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

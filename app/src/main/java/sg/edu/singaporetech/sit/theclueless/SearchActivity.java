@@ -50,7 +50,7 @@ public class SearchActivity extends AppCompatActivity {
         }
 
         Python py = Python.getInstance();
-        final PyObject pyobj = py.getModule("assignment");
+        final PyObject pyobj = py.getModule("Crawler");
 
         btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override

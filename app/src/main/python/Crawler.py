@@ -45,11 +45,11 @@ import base64 # new
 import matplotlib.pyplot as plt # new
 
 # File issue with Android - uncomment when running on Android
-# from os.path import dirname, join
+from os.path import dirname, join
 
-# filename1 = join(dirname(file), "theclueless-e4926-firebase-adminsdk-9h05x-bbd334aabe.json")
-# filename2 = join(dirname(file), "wc.png")
-# filename3 = join(dirname(file), "wc.txt")
+filename1 = join(dirname(file), "theclueless-e4926-firebase-adminsdk-9h05x-bbd334aabe.json")
+filename2 = join(dirname(file), "wc.png")
+filename3 = join(dirname(file), "wc.txt")
 
 # Parent crawler
 class Crawler(): 
